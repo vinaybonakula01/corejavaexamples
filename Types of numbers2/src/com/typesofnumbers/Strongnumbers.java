@@ -1,8 +1,9 @@
 package com.typesofnumbers;
 import java.util.Scanner;
 /*
- * program to print n Strong numbers
+ *1) program to print n Strong numbers
  */
+
 public class Strongnumbers { 
 
 	public static void main(String[] args) {
