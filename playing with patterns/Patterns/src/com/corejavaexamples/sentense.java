@@ -1,6 +1,6 @@
 package com.corejavaexamples;
 
-public class Tomylove {
+public class sentense {
 public static void main(String[] args) {
 for(int x=1;x<=50;x++) {
 	for(int y=1;y<=51;y++) {
