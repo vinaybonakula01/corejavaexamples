@@ -1,4 +1,4 @@
-package com.typesofnumbers;
+package com.corejavaexamples;
 
 import java.util.Scanner;
 
