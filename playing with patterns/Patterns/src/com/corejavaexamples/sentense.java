@@ -16,10 +16,10 @@ for(int x=1;x<=50;x++) {
 	         (x==12&&y==25)||
 	         (y==22&&(x==14||x==15||x==16||x==17))||(x==17&&(y==23||y==24||y==25
 	         ||y==26||y==27))||y==28&&(x==14||x==15||x==16||x==17)){
-		System.out.print("*");
+		System.out.print(" ");
 	 }
 	 else {
-		System.out.print(" ");
+		System.out.print("*");
 	 }		     
 					
 	}

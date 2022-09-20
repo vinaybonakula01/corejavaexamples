@@ -1,44 +1,39 @@
 package com.corejavaexamples;
 
-import java.util.Scanner;
-
 public class Diamond {
 	
 	public static void main(String args[])
 	{
-	int n, i, j, space = 1;
-	System.out.print("Enter the number of rows: ");
-	Scanner s = new Scanner(System.in);
-	n = s.nextInt();
-	space = n - 1;
-	for (j = 1; j<= n; j++)
+		int star = 1;
+		int space =4;;
+	for (int i=1;i<=9 ;i++ )
 	{
-	for (i = 1; i<= space; i++)
-	{
-	System.out.print(" ");
-	}
+		
+		for (int b=1;b<=space ;b++ )
+		{
+			System.out.print("   ");
+		}
+		for (int a=1;a<=star ;a++ )
+		{
+			System.out.print(" * ");
+		}
+	
+	System.out.println();
+
+if (i<=4)
+{
+	star=star+2;
 	space--;
-	for (i = 1; i <= 2 * j - 1; i++)
-	{
-	System.out.print("*");
-	}
-	System.out.println("");
-	}
-	space = 1;
-	for (j = 1; j<= n - 1; j++)
-	{
-	for (i = 1; i<= space; i++)
-	{
-	System.out.print(" ");
-	}
+}
+else 
+{
+	star=star-2;
 	space++;
-	for (i = 1; i<= 2 * (n - j) - 1; i++)
-	{
-	System.out.print("*");
-	}
-	System.out.println("");
-	}
-	}
-	}
+}
+}
+}
+
+}
+	
 
 
